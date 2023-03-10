@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: black;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+.list_item {
+    font-weight: 300;
+    font-size: 10px;
+    color: beige;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+.phone_number .phone {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.dostavka {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+
+
+
+
+header{
+    padding-top: 20px;
+
+}
+
+.inp{
+  border: 1px solid #FFFFFF;
+  outline: none;
+  padding: 14px 480px 14px 50px;
+
+}
+.fa-hear{
+    font-size: 20px;
+}
+.fa-bag-shopping{
+    font-size: 20px;
+}
+.fa-address-book{
+    flex: 20px;
+}
